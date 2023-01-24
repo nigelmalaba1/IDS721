@@ -15,7 +15,7 @@ Use IaC (Infrastructure as Code) to deploy code
 
 Use either AWS, Azure, GCP (recommended services include Google App Engine, AWS App Runner or Azure App Services)
 
-Containerization is optional, but recommended
+Containerization
 
 
 
