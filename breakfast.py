@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 def breakfast():
 
- return "Your breakfast is eggs and croissants"   
+    return "Your breakfast is eggs and croissants"   
 
 @app.route("/dontrepeat")
 
@@ -26,6 +26,9 @@ def weekend(dayoftheweek):
 
     if(dayoftheweek == "Saturday"):
            return "You can eat anything you want today!"
+    if(dayoftheweek == "Sunday"):
+        return "Let's nourish up with some fruits before the start of the week"
+    
     else:
         return "It's oatmeal today!"
 
