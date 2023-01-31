@@ -81,6 +81,6 @@ def weekend(day):
 
 
 if __name__ == "__main__":
-   # server = wsgiserver.WSGIServer(breakfast, port=5000, numthreads=2)
+   # server = wsgiserver.WSGIServer(breakfast, port=8080, numthreads=2)
     #server.start()
-    app.run(host='localhost', port=5000, debug=True)
+    app.run(host='0.0.0.0', port=8080, debug=False)
