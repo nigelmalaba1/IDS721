@@ -66,6 +66,10 @@ def weekend(day):
         return "It's oatmeal today! You didn't specify what you want so I'm giving you oatmeal."
 
 if __name__ == "__main__":
-   # server = wsgiserver.WSGIServer(breakfast, port=5000, numthreads=2)
+   # server = wsgiserver.WSGIServer(breakfast, port=8080, numthreads=2)
     #server.start()
+<<<<<<< HEAD
     app.run(host='0.0.0.0', port=8080, debug=False)
+=======
+    app.run(host='0.0.0.0', port=8080, debug=False)
+>>>>>>> bc32c8ee6e144e702ce90e10fbc84504dd6aa55c
