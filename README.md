@@ -1,4 +1,5 @@
 # IDS721
+[![Testing with Github Actions](https://github.com/nigelmalaba1/IDS721/actions/workflows/main.yml/badge.svg)](https://github.com/nigelmalaba1/IDS721/actions/workflows/main.yml)
 
 
 PROJECT 1: Cloud Continuous Delivery of Microservice (MLOps or Data Engineering Focused)
