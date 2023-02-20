@@ -2,16 +2,16 @@
 FROM python:3.7
 
 # Set the working directory
-WORKDIR /breakfastapp
+WORKDIR /breakfast
 
 # Copy the Flask microservice code into the image
-COPY . /breakfastapp
+COPY . /breakfast
 
 # Install the dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Set the environment variable for Flask
-ENV FLASK_APP=breakfastapp.py
+ENV FLASK_APP=breakfast.py
 
 # Expose port 5000 for the Flask microservice
 EXPOSE 5000
